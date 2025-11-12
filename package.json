@@ -1,0 +1,27 @@
+{
+  "name": "vetoriza-pro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5173",
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vite": "^5.3.1",
+    "tailwindcss": "^3.4.3",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.20",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
